@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.weather-icon{
+  height: 5rem;
+}
+
+.input{
+  color: white;
+  background-color: rgb(64, 64, 64);
+  border: none;
+  border-radius: 8px;
+  width: 20rem;
+  height: 1.29rem;
+  max-width: 22rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+.search-field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  border-radius: 8px;
+  background-color: rgb(50, 50, 50);
+  margin: 25px;
+  padding: 10px;
+}
+
+.condition-component{
+  background-color: rgb(50, 50, 50);
+  width: 10rem;
+  height: 11rem;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.current-conditions{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2,0.1fr);
+  /* gap: 10px; */
+
+}
+
+.condition-component-img{
+width: 3rem;
+}
