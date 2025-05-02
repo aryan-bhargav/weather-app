@@ -19,10 +19,10 @@ function Card() {
     </div>
 
     <div className='current-conditions'>
-      <ConditionComponent img={windImage} data={weather.data?.current?.wind_kph} unit="Km/h" />
-      <ConditionComponent img={humidityImage} data={weather.data?.current?.humidity} unit="%" />
-      <ConditionComponent img={pressureImage} data={weather.data?.current?.pressure_mb} unit="mBar" />
-      <ConditionComponent img={uvImage} data={weather.data?.current?.uv} unit="Low" />
+      <ConditionComponent img={windImage} data={weather.data?.current?.wind_kph} conditionName="Wind" unit="Km/h" />
+      <ConditionComponent img={humidityImage} data={weather.data?.current?.humidity} conditionName="Humidity" unit="%" />
+      <ConditionComponent img={pressureImage} data={weather.data?.current?.pressure_mb} conditionName="Pressure" unit="mBar" />
+      <ConditionComponent img={uvImage} data={weather.data?.current?.uv} conditionName="UV" unit="Low" />
     </div>
   </>
   )

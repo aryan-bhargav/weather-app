@@ -6,7 +6,7 @@ function ConditionComponent(props) {
   return (
 
     <div className='condition-component'>
-        <div className='condition-name'>Wind</div>
+        <div className='condition-name'>{props.conditionName}</div>
         <img className='condition-component-img' src={props.img} alt="no img" />
       {/* Wind speed: {weather.data?.current?.wind_kph} */}
     <div className='condition-value'>{props.data}</div>
